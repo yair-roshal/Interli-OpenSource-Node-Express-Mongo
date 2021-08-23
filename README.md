@@ -1,18 +1,14 @@
-interli - interlinear translation for any texts
+# InterLi - interlinear translation for any texts
 
+ 
+![alt text](src/img/img_for_github.png "Illustration for the project")
 
-![Иллюстрация к проекту](https://github.com/yair-roshal/interli/tree/master/src/img/img_for_github.png)
-
-
-![alt text](src/img/img_for_github.png "Описание будет тут")
-
-![alt tag](https://github.com/yair-roshal/interli/tree/master/src/img/img_for_github.png "Описание будет тут")​
-
-инструкция по запуску
+ 
+## start-up instructions
 
 1. npm install
 2. npm start
-3. переходим в терминале в папку backend
+3. go to the backend folder in the terminal
 4. node serve
 
 
