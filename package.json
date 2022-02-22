@@ -2,7 +2,7 @@
   "name": "interli",
   "version": "7.7.0",
   "author": "Yair",
-  "main": "client/src/index.js",
+  "main": "server/server.js",
   "license": "MIT",
   "dependencies": {
     "concurrently": "^6.0.0"
