@@ -3,7 +3,7 @@
   "version": "7.7.0",
   "author": "Yair",
   "license": "MIT",
-  "dependencies": {
+   "dependencies": {
     "concurrently": "^6.0.0"
   },
   "scripts": {
@@ -24,7 +24,5 @@
   ],
   "devDependencies": {
     "prettier": "2.5.1"
-  },
-  "description": "![alt text](src/img/img_for_github.png \"Illustration for the project\")",
-  "main": "index.js"
+  }, 
 }
