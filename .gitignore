@@ -2,8 +2,9 @@
 
 # dependencies
 /node_modules
-/000 my files
 server/node_modules
+client/node_modules
+/000 my files
 /.history
 # api keys
 .env 

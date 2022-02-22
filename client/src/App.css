@@ -1,0 +1,54 @@
+  
+.edit {
+  text-align: right;
+  /* color: blueviolet; */
+  font-size: calc(5px + 1vmin);
+ }
+
+ .table_text {
+   direction: rtl; 
+   text-align: right;
+}
+
+  .table_text  caption,  .table_text  th,  .table_text  td {
+  direction: ltr; 
+} 
+
+  .row {
+    /* float: right; */
+    display: table-row;
+    background: #f2dede;
+    border-color: #b94a48;
+}
+
+.cell {
+  display: inline-block;
+  background: #fbeed5;
+    border-color: #c09853;
+        height: 100px;
+
+}
+    
+  /* td{
+    display: inline-block;
+
+
+  }
+  tr{
+    display:block;
+    
+  } */
+
+  .description {
+    text-align: center;
+    font-weight: 600;
+    /* color: blueviolet; */
+    font-size: calc(15px + 1vmin);
+  }
+
+  .translate {
+    /* text-align: right; */
+    text-align: center;
+    /* color: blueviolet; */
+    font-size: calc(6px + 1vmin);
+  }
