@@ -2,15 +2,15 @@
 
 # Demo of App :
 
-![alt text](src/img/img_for_github.png "Illustration for the project")
+![alt text](client/src/img/img_for_github.png "Illustration for the project")
 
 ## What I want to do:
 
 ### Russian version
-<img src="src/img/tehilimRu.jpg"  width="400"/>
+<img src="client/src/img/tehilimRu.jpg"  width="400"/>
 
 ### French version
- <img src="src/img/tehilFr.jpg"  width="400"/>
+ <img src="client/src/img/tehilFr.jpg"  width="400"/>
 
 
 ## How to Contribute to Open Source
@@ -61,7 +61,7 @@ https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-begi
 3. React
 4. Node
 
- <img src="src/img/mern.jpg"  width="400"/> 
+ <img src="client/src/img/mern.jpg"  width="400"/> 
 
 
 <!-- Check it on https://cloud.mongodb.com/
