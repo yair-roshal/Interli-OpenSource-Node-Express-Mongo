@@ -61,7 +61,15 @@ https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-begi
 3. React
 4. Node
 
- <img src="client/src/img/mern.jpg"  width="400"/> 
+ <img src="client/src/img/mern.jpg"  width="300"/> 
+
+
+
+## Tasks
+1. Replace class component with functional component using hooks.
+2. Connect a translator (Google, Yandex) via the API to translate individual words.
+3. Create a system of registration and accounts.
+4. Make it possible to select text.
 
 
 <!-- Check it on https://cloud.mongodb.com/
