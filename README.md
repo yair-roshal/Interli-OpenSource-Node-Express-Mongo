@@ -70,6 +70,7 @@ https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-begi
 2. Connect a translator (Google, Yandex) via the API to translate individual words.
 3. Create a system of registration and accounts.
 4. Make it possible to select text.
+5. Rewrite requests to the server to Nest.js
 
 
 <!-- Check it on https://cloud.mongodb.com/
