@@ -12,6 +12,12 @@
 ### French version
  <img src="client/src/img/tehilFr.jpg"  width="400"/>
 
+### Tasks
+1. Replace class component with functional component using hooks.
+2. Connect a translator (Google, Yandex) via the API to translate individual words.
+3. Create a system of registration and accounts.
+4. Make it possible to select text.
+5. Rewrite requests to the server to Nest.js
 
 ## How to Contribute to Open Source
 
@@ -63,15 +69,6 @@ https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-begi
 
  <img src="client/src/img/mern.jpg"  width="300"/> 
 
-
-
-## Tasks
-1. Replace class component with functional component using hooks.
-2. Connect a translator (Google, Yandex) via the API to translate individual words.
-3. Create a system of registration and accounts.
-4. Make it possible to select text.
-5. Rewrite requests to the server to Nest.js
-
-
+  
 <!-- Check it on https://cloud.mongodb.com/
 Your cluster has been automatically paused due to prolonged inactivity. Resume your cluster to connect to it and to gain access to your data. -->
