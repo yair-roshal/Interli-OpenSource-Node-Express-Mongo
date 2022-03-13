@@ -14,7 +14,7 @@ router.route('/').get((req, res) => {
 
 router.route('/add').post((req, res) => {
 
-  console.log(`req.body---`,req.body);
+  console.log(`req.body---`, req.body);
 
   const username = req.body.username;
   const description = req.body.description;
@@ -22,7 +22,7 @@ router.route('/add').post((req, res) => {
   const date = Date.parse(req.body.date);
 
   let d = new Date(new Date().toLocaleString("en-US", {timeZone: "timezone id"})); // timezone ex: Asia/Jerusalem
-  
+
   const newWord = new Word({
     username,
     description,
@@ -32,21 +32,21 @@ router.route('/add').post((req, res) => {
 
   console.log(`newWord----111`, newWord)
 
-    newWord.save()
-  .then(() => res.json('Word added!!!!11111'))
-  .catch(err => res.status(400).json('Error: ' + err));
+  newWord.save()
+    .then(() => res.json('Word added!!!!11111'))
+    .catch(err => res.status(400).json('Error: ' + err));
 });
 
 
-  
+
 router.route('/addArr').post((req, res) => {
-  
+
   const vrem = req.body;
 
-  console.log(`vrem---(server)`,vrem);
-  console.log(`vrem.length---(server)`,vrem.length);
- 
-  ArrWordsModel.insertMany( vrem,  function(err, doc) {
+  console.log(`vrem---(server)`, vrem);
+  console.log(`vrem.length---(server)`, vrem.length);
+
+  ArrWordsModel.insertMany(vrem, function (err, doc) {
     if (err) return console.error(err);
     console.log("Document inserted successfully !");
   });
@@ -60,13 +60,13 @@ router.route('/addArr').post((req, res) => {
   //     response.status(500).send(err);
   // });
 
-   
+
 });
 
 
 
-  // ==========================================================================================
-  
+// ==========================================================================================
+
 
 router.route('/:id').get((req, res) => {
   Word.findById(req.params.id)
